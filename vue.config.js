@@ -3,7 +3,7 @@ const resolve = dir => {
   return path.join(__dirname, dir)
 }
 module.exports = {
-  publicPath: './',
+  publicPath: process.env.VUE_APP_CONTEXT_PATH,
   transpileDependencies: [],
   chainWebpack: config => {
     config.resolve.alias

@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "release":"sgrid release:vite -s VueDataVDemoServer"
   },
   "dependencies": {
     "@jiaminghi/data-view": "^2.7.3",
