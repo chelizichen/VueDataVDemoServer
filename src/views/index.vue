@@ -101,6 +101,7 @@ import centerRight2 from './centerRight2'
 import center from './center'
 import bottomLeft from './bottomLeft'
 import bottomRight from './bottomRight'
+import { allMakersEquipment } from "../api/get.js";
 
 export default {
   mixins: [ drawMixin ],
@@ -125,6 +126,9 @@ export default {
     bottomRight
   },
   mounted() {
+    allMakersEquipment().then(res=>{
+      console.log('res',res);
+    })
     this.timeFn()
     this.cancelLoading()
   },

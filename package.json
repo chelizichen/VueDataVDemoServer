@@ -6,11 +6,12 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "release":"sgrid release:vite -s VueDataVDemoServer"
+    "release": "sgrid release:vite -s VueDataVDemoServer"
   },
   "dependencies": {
     "@jiaminghi/data-view": "^2.7.3",
     "@types/echarts": "^4.4.3",
+    "axios": "^1.7.2",
     "core-js": "^3.6.4",
     "echarts": "^4.6.0",
     "vue": "^2.6.11",
